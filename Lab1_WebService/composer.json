@@ -1,0 +1,10 @@
+{
+	"require" : {
+		"cmfcmf/openweathermap-php-api" : "*"
+	},
+
+	"autoload" : {
+		"files" : ["config.php"],
+		"classmap" : ["Model"]
+	}
+}

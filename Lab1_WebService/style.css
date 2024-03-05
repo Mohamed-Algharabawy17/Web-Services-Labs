@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+form + h2{
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid rgba(195, 195, 195, 0.661);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+[type="submit"]{
+    height: 35px;
+    margin-left: 10px;
+    border: 1px solid rgb(2, 88, 2);
+    background-color: white;
+    border-radius: 10px;
+}
+
+[type="submit"]:hover{
+    background-color: rgb(79, 217, 79);
+    color: white;
+}
+
+
+/************************************************************************************************/
+
+
