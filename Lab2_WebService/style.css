@@ -1,0 +1,202 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+
+/******************************** Table Style ******************************/
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid black;
+    height: 300px;
+    overflow-y: auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-weight: bolder;
+}
+
+tr:hover {
+    background-color: rgba(98, 238, 98, 0.186);
+    color: rgba(10, 105, 9, 0.845);
+}
+
+.more-btn{
+    border: 1px solid green;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.more-btn:hover{
+    background-color: rgba(9, 90, 11, 0.608);
+    border: 1px solid rgb(4, 92, 17);
+    color: white;
+}
+
+.show-btn{
+  border: 1px solid rgb(128, 23, 0);
+  background-color: white;
+  color: black;
+  border-radius: 7px;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.show-btn:hover{
+  background-color: rgba(123, 14, 14, 0.879);
+  border: 1px solid rgb(92, 4, 4);
+  color: white;
+}
+
+
+.form-content{
+  display: flex;
+  height: 50px;
+  width: 600px;
+  /* background-color: red; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-around;
+
+  margin-top: 20px;
+}
+
+[type="text"]{
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid rgb(152, 152, 152);
+}
+
+.error-message{
+  color: red;
+}
+
+.search-menu{
+  width: 150px;
+}
+
+/******************************** pagination bar ****************************/
+.pagination {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+h6{
+  margin: 0;
+}
+
+/********************************** Item Card *******************************/
+.card {
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding-bottom: 10px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.item-details{
+  margin-left: 95px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+/************************************ add item form *****************************************/
+
+.add-form input[type=text], select {
+  width: 30%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.add-form input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.add-form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.add-form{
+  width: 35%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+}
+
+.add-form div div{
+  display: flex;
+  width: 450px;
+  align-items: center;
+  background-color: #45a049;
+}
+
+
+.category-menu{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.add-btn{
+  text-align: center;
+}
+
+#country{
+  width: 80%;
+}
+/**********************************************************************************************/
+
